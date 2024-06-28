@@ -1,0 +1,77 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #D9E5D6;
+    color: #4464AD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #4464AD;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+input#inputTarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button.btn-info {
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button.btn-info:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion .card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s;
+}
+
+.accordion .card:hover {
+    transform: translateY(-5px);
+}
+
+.accordion .card-header {
+    background-color: #ffffff;
+    border-bottom: none;
+}
+
+.accordion .btn-link {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.list-group-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #4464AD; /* Color for to-do items */
+}
+
+.list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888; /* Color for done items */
+}

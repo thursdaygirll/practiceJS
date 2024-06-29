@@ -61,9 +61,13 @@ button.btn-info:hover {
     text-decoration: none;
 }
 
+.card-header.clickable {
+    cursor: pointer;
+}
+
 .list-group-item {
     transition: transform 0.3s, box-shadow 0.3s;
-    color: #4464AD; /* Color for to-do items */
+    color: #4464AD; 
 }
 
 .list-group-item:hover {
@@ -73,5 +77,5 @@ button.btn-info:hover {
 
 .completed {
     text-decoration: line-through;
-    color: #888; /* Color for done items */
+    color: #888; 
 }
